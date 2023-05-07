@@ -15,8 +15,8 @@ public class Main {
             System.out.print("Parolanız : " );
             password = input.nextLine();
 
-            if (userName.equals("patika") && password.equals("dev123")) {
-                System.out.println("Merhaba, Kodluyoruz Bankasına Hoşgeldiniz!");
+            if (userName.equals("ayfer") && password.equals("dv123")) {
+                System.out.println("Merhaba, Bankaya Hoşgeldiniz!");
                 do {
                     System.out.println("1-Para yatırma\n" +
                             "2-Para Çekme\n" +
