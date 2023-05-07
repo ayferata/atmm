@@ -9,9 +9,10 @@ public class Main {
         int balance = 1500;
         int select;
         while (right > 0) {
-            System.out.print("Kullanıcı Adınız :");
+        
+            System.out.print("Kullanıcı Adınız :" );
             userName = input.nextLine();
-            System.out.print("Parolanız : ");
+            System.out.print("Parolanız : " );
             password = input.nextLine();
 
             if (userName.equals("patika") && password.equals("dev123")) {
