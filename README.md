@@ -16,23 +16,25 @@ public class Main {
             password = input.nextLine();
 
             if (userName.equals("ayfer") && password.equals("dv123")) {
-                System.out.println("Merhaba, Bankaya Hoşgeldiniz!");
+                System.out.println("Merhaba, Bankaya Hoşgeldiniz!" );
                 do {
                     System.out.println("1-Para yatırma\n" +
                             "2-Para Çekme\n" +
                             "3-Bakiye Sorgula\n" +
-                            "4-Çıkış Yap");
-                    System.out.print("Lütfen yapmak istediğiniz işlemi seçiniz : ");
+                            "4-Çıkış Yap" );
+                    System.out.print("Lütfen yapmak istediğiniz işlemi seçiniz : " );
                     select = input.nextInt();
+                    
                     if (select == 1) {
                         System.out.print("Para miktarı : ");
                         int price = input.nextInt();
                         balance += price;
+                        
                     } else if (select == 2) {
-                        System.out.print("Para miktarı : ");
+                        System.out.print("Para miktarı : " );
                         int price = input.nextInt();
                         if (price > balance) {
-                            System.out.println("Bakiye yetersiz.");
+                            System.out.println("Bakiye yetersiz." );
                         } else {
                             balance -= price;
                         }
